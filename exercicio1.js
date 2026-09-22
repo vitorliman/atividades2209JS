@@ -1,6 +1,13 @@
+//Achei a questão relativamente dificil, demorei 40 minutos pra resolver, confundi a parte de declarar, mas consegui resolver
+
+
+
+
 function calcularAreaRetangulo (base, altura){
 
       let area = base * altura
+
+
       return area
 }
    
