@@ -1,3 +1,6 @@
+//A tarefa é relativamente simples, entretanto demorei a entender a lógica.
+
+
 function ehPar(parimpar){
     if(psrimpar % 2 == 0)
     
