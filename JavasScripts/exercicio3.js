@@ -1,21 +1,20 @@
-essa questao é simples eu o secebi uma temé
-function ehPar(parimpar) {
-    return parimpar % 2 === 0;
+
+function receberatemperatura(){
+    let c = Number(prompt("Digite a temperatura em C"))
+    return c
 }
 
-function recebernumero() {
-    let numero = Number(prompt("Digite um numero:"));
-    return numero;
+function celsiusParaFahrenheit(convertor){
+
+    let fah = (celsius * 1.8 + 32);
+    return fah
 }
 
-function exibir(numero, ehParOuImpar) {
-    if (ehParOuImpar) {
-        alert(`O numero ${numero} é Par!`);
-    } else {
-        alert(`O numero ${numero} é Ímpar!`);
-    }
+function exibir(tp){
+    alert(`A temperatura em C ${celsius} é de °F ${valor}`)
 }
+let celsius = receberatemperatura()
 
-let valor = recebernumero();
-let resultado = ehPar(valor);
-exibir(valor, resultado);
+let valor = celsiusParaFahrenheit(celsius)
+
+exibir(valor)
